@@ -1,0 +1,82 @@
+.App 
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.FlexBox
+{
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  height: 98%;
+  border: 1px solid grey;
+  gap: 8px;
+}
+
+.row
+{
+  display: flex;
+ 
+  width: 100%;
+  height:26%;
+  justify-content: center;
+  gap: 8px
+}
+
+.row-central
+{
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  height: calc(28vh);
+  justify-content: space-between;
+  gap: 8px
+}
+
+.row-central .item
+{
+  background-color: rgb(96, 248, 253);
+  height: calc(28vh);
+  width: 32vh;
+}
+
+.row-central .item.mid
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0);
+  width: 40%;
+  height: 100%;
+}
+
+.circle
+{
+  background: yellow;
+  border-radius: 50%;
+  width: 24vh;
+  height: 24vh;
+}
+
+.item
+{
+  background-color: #5eff00;
+  width: 32vw;
+  height: calc(20vh);
+}
+
+.item.mid
+{
+  background: red;
+  width: 30%;
+}
+
+
+
+
